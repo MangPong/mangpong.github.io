@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header-content p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    color: #007BFF;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #007BFF;
+}
+
+.job p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .resume-container {
+        padding: 15px;
+    }
+
+    header {
+        font-size: 90%;
+    }
+
+    ul li {
+        margin: 5px 0;
+    }
+}
